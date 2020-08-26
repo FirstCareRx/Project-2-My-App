@@ -8,7 +8,7 @@ const sequelize = require("../config/connection.js");
 
 // Creates a "Chirp" model that matches up with DB
 const Foods = sequelize.define("foods", {
-  id: Sequelize.INT,
+  id: Sequelize.INTEGER,
   food: Sequelize.STRING,
   category: Sequelize.STRING,
   price: Sequelize.DATE,
